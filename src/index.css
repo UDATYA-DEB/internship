@@ -9,6 +9,8 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body::-webkit-scrollbar{

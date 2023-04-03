@@ -246,3 +246,53 @@
     justify-content: center;
     cursor: pointer;
 }
+
+.contact-container{
+    width: 1488px;
+    height: 518px;
+    padding-top: 58px;
+    padding-left: 64px;
+    padding-bottom: 52px;
+    padding-right: 64px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 48px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 724px;
+
+}
+
+.fullname{
+    width: 350px;
+    height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-bottom: 20px; */
+}
+
+.textbox:focus{
+    outline: none;
+}
+
+.form{
+    width: 724px;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

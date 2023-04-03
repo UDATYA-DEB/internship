@@ -1,0 +1,22 @@
+.footer-container{
+    width: 1920px;
+    height: 380px;
+    background-color: #002550;
+    box-sizing: border-box;
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    width: 1677px;
+    height: 246px;
+    padding-left: 18.81px;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
