@@ -1,0 +1,248 @@
+.mainpage{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-offering,
+.banner{
+    width: 1464px;
+    height: 480px;
+    /* background-color: aqua; */
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.banner-offering{
+    align-items: center;
+    justify-content: center;
+}
+
+.top-caption{
+    width: 442px;
+    height: 100%;
+    background-color: #002550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-image{
+    width: 1024.5px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #002550;
+}
+
+.banner-info{
+    width: 645px;
+    height: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.view-btn,
+.contact-btn{
+    width: 202px;
+    height: 61px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.view-btn{
+    border: 1px solid #01244A;
+    color: #01244A;
+}
+
+.team-container,
+.offering-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-title,
+.offering-title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+}
+
+.underline-blog-title,
+.underline-team-title,
+.underline-offering-title{
+    background-color: #002550;
+    width: 200px;
+    height: 5px;
+    /* margin-top: 24px; */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.underline-team-title{
+    width: 248px;
+}
+
+.underline-blog-title{
+    width: 54px;
+    margin-bottom: 0;
+}
+
+.team-container{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.offering-blog-container,
+.offering-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.offering-blog-container{
+    margin-bottom: 0;
+}
+
+.stage-container{
+    width: 467px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.underline-stage{
+    background-color: #002550;
+    width: 467px;
+    height: 5px;
+    /* margin-top: 24px; */
+    /* margin-top: 50px; */
+    bottom: 0;
+    position: absolute;
+}
+
+.stage-cards{
+    width: 455px;
+    height: 631px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 24px;
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-card{
+    box-shadow: 0px 4px 61px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    width: 455px; 
+    min-height: 595px;
+    padding: 24px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stage-title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0;
+}
+
+.team-info,
+.stage-info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #767676;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin: 0;
+}
+
+.team-info{
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    margin-bottom: 15px;
+}
+
+.blog-container{
+    width: 1920px;
+    height: 984px;
+    background-color: #f2f4f6;
+    padding: 56px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-card{
+    width: 456px;
+    height: 777px;
+    box-shadow: 0px 4px 61px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 24.5px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+}
+
+.by-admin-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.blog-arrow-container{
+    width: 70px;
+    height: 70px;
+    background-color: #E6EAEE;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
