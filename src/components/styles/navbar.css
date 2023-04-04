@@ -65,7 +65,7 @@
     height: 5px;
     /* margin-top: 24px; */
     border-radius: 10px;
-    margin-bottom: 2px;
+    margin-bottom: -1px;
 }
 
 .tab{

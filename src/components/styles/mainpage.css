@@ -33,10 +33,7 @@
 .top-image{
     width: 1024.5px;
     height: 480px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #002550;
+    background-color: #033f85;
 }
 
 .banner-info{
@@ -165,15 +162,20 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
+.team-title,
 .stage-title{
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 28px;
     line-height: 38px;
     margin: 0;
+}
+
+.team-title{
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .team-info,
@@ -276,13 +278,27 @@
     height: 48px;
     padding-left: 17px;
     padding-right: 17px;
-    border: 1px solid #888888;
+    border: 1px solid #767980;
     border-radius: 5px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     /* margin-bottom: 20px; */
+}
+
+.dropdown-btn{
+    width: 350px;
+    height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .textbox:focus{

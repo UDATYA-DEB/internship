@@ -3,6 +3,7 @@ import './styles/mainpage.css'
 import Textbox from './Textbox'
 import TextboxMobile from './TextboxMobile'
 import TextboxDropdown from './TextboxDropdown'
+import TextboxDropdownStage from './TextboxDropdownStage'
 
 const Contact = () => {
   return (
@@ -22,17 +23,17 @@ const Contact = () => {
         </div>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
           <div style={{display: 'flex', flexDirection: 'column'}}>
-            <TextboxMobile nametext='Mobile Number'/>
+            <TextboxMobile nametext2='Mobile Number' nametext1='Country'/>
             {/* <p style={{margin: '0', marginTop: '5px', fontFamily: 'Mulish', color: '#1A1A1A', opacity: '0.4', fontWeight: '500', fontSize: '12px'}}>Not more than 50 characters</p> */}
           </div>
           <div>
-            <TextboxDropdown nametext='Country'/>
+            <TextboxDropdown nametext='City/Town'/>
             {/* <p style={{margin: '0', marginTop: '5px', fontFamily: 'Mulish', color: '#1A1A1A', opacity: '0.4', fontWeight: '500', fontSize: '12px'}}>Please enter a valid email address</p> */}
           </div>
         </div>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
           <div style={{display: 'flex', flexDirection: 'column'}}>
-            <TextboxDropdown nametext='Stages'/>
+            <TextboxDropdownStage nametext='Stages'/>
             {/* <p style={{margin: '0', marginTop: '5px', fontFamily: 'Mulish', color: '#1A1A1A', opacity: '0.4', fontWeight: '500', fontSize: '12px'}}>Not more than 50 characters</p> */}
           </div>
         </div>

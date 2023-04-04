@@ -25,7 +25,7 @@ const BlogCard = ({img, date, title, info}) => {
         <p style={{marginLeft: '-2px', marginBottom: '14px'}} className="stage-title">{title}</p>
         <div className="team-info">{readMore ? info : `${info.substring(0,212)}`}</div>
     </div>
-    <button className='view-btn' style={{width: '182px'}}>View More<AiOutlineArrowRight size={18} color='#01244A' style={{marginLeft: '10px', color: '#01244A'}}/></button>
+    <button onClick={handleReadMore} className='view-btn' style={{width: '182px'}}>View More<AiOutlineArrowRight size={18} color='#01244A' style={{marginLeft: '10px', color: '#01244A'}}/></button>
 </div>
   )
 }

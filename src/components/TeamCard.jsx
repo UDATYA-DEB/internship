@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import './styles/mainpage.css'
 
 const TeamCard = ({img, title, info}) => {
     const [readMore, setReadMore] = useState(false);
@@ -12,7 +12,7 @@ const TeamCard = ({img, title, info}) => {
         <div className="stage-img-container">
             <img src={img} alt="stage1" />
         </div>
-        <p className="stage-title">{title}</p>
+        <p className="team-title">{title}</p>
         <div>
             <div className="team-info">{readMore ? info : `${info.substring(0,212)}...`}</div>
             <div style={{display: 'flex', alignItems: 'center', justifyContent: 'right', height: '16px'}}>

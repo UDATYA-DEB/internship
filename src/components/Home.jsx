@@ -1,16 +1,18 @@
 import React from 'react'
 import './styles/mainpage.css'
 import { AiOutlineArrowRight } from 'react-icons/ai'
+import house from '../images/building.png'
 
 const Home = () => {
   return (
     <div className='home'>
         <div className='banner'>
             <div className="top-caption">
-                <p style={{width: '388px', height: '210px', color: 'white', fontFamily: 'Solway', fontSize: '40px', fontWeight: '400'}}>Making your <span style={{fontSize: '48px', fontWeight: '700', color: 'yellow'}}>Real Estate </span> Purchase Journey Faster And Transperent</p>
+                <p style={{width: '388px', height: '210px', color: 'white', fontFamily: 'Solway', fontSize: '40px', fontWeight: '400', marginLeft: '0', marginRight: '0', marginTop: '-60px', marginBottom: '0'}}>Making your <span style={{fontSize: '48px', fontWeight: '700', color: 'yellow'}}>Real Estate </span> Purchase Journey Faster And Transperent</p>
             </div>
             <div className='top-image'>
-                <img src="./images/building.png" alt="building" style={{objectFit: 'cover', objectPosition: 'center', width: '1024.5px', height: '480px', filter: 'brightness(75%)'}}/>
+                <div style={{backgroundImage: `linear-gradient(233.83deg, rgba(255, 255, 255, 0.4) -0.03%, rgba(0, 0, 0, 0.4) 63.6%), url(${house})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', objectPosition: 'center', width: '1024.5px', height: '480px'}}></div>
+                {/* <img src="./images/building.png" alt="building" style={{objectFit: 'cover', objectPosition: 'center', width: '1024.5px', height: '480px'}}/> */}
             </div>
         </div>
         <div className='banner-offering' style={{backgroundColor: '#e6eaee', padding: '23px 27px'}}>
