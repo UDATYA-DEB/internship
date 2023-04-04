@@ -17,9 +17,9 @@ const BlogCard = ({img, date, title, info}) => {
     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
         <div className='date'>
             <img style={{marginBottom: '1px'}} src="./images/cal-logo.svg" alt="cal" />
-            <p style={{fontFamily: 'Open Sans', fontWeight: '600', fontSize: '16px', lineHeight: '21.8px', marginLeft: '14px'}}>{date}</p>
+            <p style={{fontFamily: 'Open Sans', fontWeight: '600', fontSize: '16px', lineHeight: '21.8px', marginLeft: '14px', marginRight: '0', marginTop: '0', marginBottom: '0'}}>{date}</p>
         </div>
-        <p className='by-admin-text'>By Admin</p>
+        <p style={{margin: '0'}} className='by-admin-text'>By Admin</p>
     </div>
     <div>
         <p style={{marginLeft: '-2px', marginBottom: '14px'}} className="stage-title">{title}</p>
